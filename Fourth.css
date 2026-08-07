@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("praposalbcg.jpeg");
+  background-size: cover;
+}
+p {
+  color: red;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  display: flex;
+  color: white;
+  /* justify-content: flex-end; */
+  list-style: none;
+  justify-content:space-evenly;
+  margin-top: -21px;
+  margin-left: 800px;
+  margin-right: 50px;
+}
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+ul li:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.8s;
+}
+ul li::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: red;
+  left: 0;
+  bottom: -5px;
+  transition: 0.4s;
+}
+
+ul li:hover::after {
+  width: 100%;
+}
+
+.headre p {
+  margin-left: 750px;
+  margin-top: 40px;
+}
+.headre h5 {
+  margin-left: 690px;
+  color: white;
+}
+.headre h1 {
+  margin-left: 600px;
+  color: white;
+  font-size: 40px;
+}
+.headre h2 {
+  margin-left: 600px;
+  color: white;
+  color: red;
+}
+.headre h4 {
+  margin-left: 650px;
+  color: white;
+}
+.headre h3 {
+  margin-left: 500px;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+/* button {
+   
+   
+  width: 10%;
+  margin-top: -30px;
+  height: 50px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff8fa3, #c9184a);
+  color: white;
+  box-shadow: 0 8px 25px rgba(201, 24, 74, 0.35);
+  color: white;
+  border: none;
+} */
+/* button:hover
+ {
+    background-color: #c9184a;
+ } */
+  img{
+    margin-left:600px;
+    margin-top: 20px;
+    border-radius: 70px;
+    display: block;
+  }
+ 
+  button{
+    margin-top: -140px;
+  }
+/*.proposal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;   
+    margin-top: 30px;
+}
+
+.proposal img{
+    border-radius: 70px;
+}
+.proposal button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg,#ff8fa3,#c9184a);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.proposal button:hover{
+    transform: scale(1.1);
+}*/
+
+ /* .co{
+    border: 2px solid red;
+    height: 200px;
+    position: relative;
+    
+ } */
+ .co img{
+    margin-top: -0px;
+ }
+ button{
+    position: absolute;
+ }
+ .co #no{
+    margin-left: 940px;
+    height:50px;
+    width: 10%;
+     border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg,#ff8fa3,#c9184a);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+     
+ }
+ .co #yes{
+    margin-left: 400px;
+    height: 50px;
+    width: 10%;
+     border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg,#ff8fa3,#c9184a);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+     
+ }
+
+ .surr {
+margin-top: 50px;
+margin-left: 650px;
+height: 40px;
+width: 10%;
+border-radius: 10px;
+ background: linear-gradient(135deg,#ff8fa3,#c9184a);
+ }

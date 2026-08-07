@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("praposalbcg.jpeg");
+  background-size: cover;
+}
+p {
+  color: red;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  display: flex;
+  color: white;
+  /* justify-content: flex-end; */
+  list-style: none;
+  justify-content:space-evenly;
+  margin-top: -21px;
+  margin-left: 800px;
+  margin-right: 50px;
+}
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+ul li:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.8s;
+}
+ul li::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: red;
+  left: 0;
+  bottom: -5px;
+  transition: 0.4s;
+}
+
+ul li:hover::after {
+  width: 100%;
+}
+
+.headre p {
+  margin-left: 700px;
+  margin-top: -35px;
+  border-radius: 30px;
+  box-shadow:
+0 0 10px #ff004c,
+0 0 20px #ff004c,
+0 0 40px #ff004c;
+  width: 100px;
+
+}
+.headre img{
+    border-radius: 30px;
+    
+}
+.headre h5 {
+  margin-left: 670px;
+  color: white;
+  font-size: 20px;
+}
+.headre h1 {
+  margin-left: 640px;
+  color: white;
+  font-size: 40px;
+}
+.headre h2 {
+  margin-left: 660px;
+  color: white;
+  color: red;
+  font-size:  40px;
+}
+.headre h4 {
+  margin-left: 650px;
+  color: white;
+}
+.headre h3 {
+  margin-left: 510px;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+button {
+  margin-left: 630px;
+  width: 15%;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff8fa3, #c9184a);
+  color: white;
+  box-shadow: 0 8px 25px rgba(201, 24, 74, 0.35);
+  color: white;
+  border: none;
+  color: white;
+  font-weight: bolder;
+
+}
+/* button:hover
+ {
+    background-color: #c9184a;
+ } */
+
+ .img img{
+    margin-left: 480px;
+    box-shadow:
+0 0 10px white,
+0 0 20px white,
+0 0 40px white;
+
+ }
+ .img p{
+    margin-left: 580px;
+    color: white;
+    text-shadow:
+0 0 5px #ff004c,
+0 0 10px #ff004c,
+0 0 20px #ff004c;
+ }
